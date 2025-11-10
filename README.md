@@ -14,3 +14,14 @@ Using the following ruleset the 2D grid of cells will evolve from generation to 
 2. quilibrium - If a live cell is surrounded by two or three living neighbors the cell stays alive and makes it to the next generation.
 3. Overpopulation - If a live cell is surrounded by more than three living neighbors the cell dies and does not make it to the next generation.
 4. Reproduction - If a dead cell is surrounded by three living neighbors the cell stays alive and makes it to the next generation.
+
+# Project Structure
+Every time you start a new Python project, you should take some time to think about how you’ll organize the project itself. You need to create your project layout, which is the directory structure of your project.
+
+For a Python project that implements Conway’s Game of Life, you may end up with many different layouts. So, it’s best to think of what you want to or need to do first. Here’s a summary:
+
+* Implement the Game of Life algorithm, including the life grid and the seeds or patterns
+* Provide a way to visualize the life grid and its evolution
+* Allow the user to set a pattern and run the game a given number of generations
+Following these ideas, you’ll create the following directory structure for your Game of Life project:
+
