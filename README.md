@@ -24,4 +24,5 @@ For a Python project that implements Conway’s Game of Life, you may end up wit
 * Provide a way to visualize the life grid and its evolution
 * Allow the user to set a pattern and run the game a given number of generations
 Following these ideas, you’ll create the following directory structure for your Game of Life project:
+![project_structure](Image1.png)
 
