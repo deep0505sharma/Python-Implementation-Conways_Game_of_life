@@ -25,8 +25,10 @@ Using the following ruleset the 2D grid of cells will evolve from generation to 
 ![Python Version](https://img.shields.io/badge/python-3.14.0-blue.svg)
 ![TOML](https://img.shields.io/badge/config-TOML-blue?logo=toml&logoColor=white)
 
-***Python*** : High-level, interpreted programming language known for its simplicity, readability, and versatility across web development, data science, automation, and AI
+***Python*** : High-level, interpreted programming language known for its simplicity, readability, and versatility across web development, data science, automation, and AI.
+
 ***TOML*** : Minimal configuration file format that’s convenient to read and parse and primarily used for configuration, separating code from settings for flexibility.
+
 ***Visual Studio Code*** : Primary code editor used for development.
 
 
