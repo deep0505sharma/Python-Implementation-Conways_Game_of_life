@@ -33,13 +33,29 @@ Using the following ruleset the 2D grid of cells will evolve from generation to 
 
 
 # Project Structure
-Every time you start a new Python project, you should take some time to think about how you’ll organize the project itself. You need to create your project layout, which is the directory structure of your project.
-
-For a Python project that implements Conway’s Game of Life, you may end up with many different layouts. So, it’s best to think of what you want to or need to do first. Here’s a summary:
 
 * Implement the Game of Life algorithm, including the life grid and the seeds or patterns
 * Provide a way to visualize the life grid and its evolution
 * Allow the user to set a pattern and run the game a given number of generations
-Following these ideas, you’ll create the following directory structure for your Game of Life project:
-![project_structure](Image1.png)
+Following these ideas, here's the directory structure for this Python Implementation of Game of Life project:
+```
+Python-Implementation-Conways_Game_of_life/
+├── __init__.py                 # Initialize the Python package
+├── __main__.py                 # Entry point for running the package
+├── __pycache__/                # Compiled Python bytecode cache
+│   ├── __init__.cpython-314.pyc
+│   ├── __main__.cpython-314.pyc
+│   ├── cli.cpython-314.pyc
+│   ├── grid.cpython-314.pyc
+│   ├── patterns.cpython-314.pyc
+│   └── views.cpython-314.pyc
+├── cli.py                      # Command-line interface for running the program
+├── grid.py                     # Handles grid logic (core of Conway's Game of Life)
+├── patterns.py                 # Contains predefined patterns (e.g., glider, oscillator)
+├── patterns.toml               # Configuration file for pattern definitions
+├── views.py                    # Handles rendering or visualization of the grid
+├── LICENSE                     # License information for the project
+└── README.md                   # Project documentation
+```
+
 
