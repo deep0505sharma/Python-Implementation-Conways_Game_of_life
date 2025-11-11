@@ -15,6 +15,21 @@ Using the following ruleset the 2D grid of cells will evolve from generation to 
 3. Overpopulation - If a live cell is surrounded by more than three living neighbors the cell dies and does not make it to the next generation.
 4. Reproduction - If a dead cell is surrounded by three living neighbors the cell stays alive and makes it to the next generation.
 
+# Dependancies
+![GitHub tag](https://img.shields.io/github/tag/pandao/editor.md.svg)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![License](https://img.shields.io/github/license/pandao/editor.md.svg)
+![PyPI](https://img.shields.io/pypi/v/packagename.svg)
+![release](https://img.shields.io/github/v/release/OWNER/REPO)
+![Python Version](https://img.shields.io/badge/python-3.14.0-blue.svg)
+![TOML](https://img.shields.io/badge/config-TOML-blue?logo=toml&logoColor=white)
+
+***Python*** : High-level, interpreted programming language known for its simplicity, readability, and versatility across web development, data science, automation, and AI
+***TOML*** : Minimal configuration file format that’s convenient to read and parse and primarily used for configuration, separating code from settings for flexibility.
+***Visual Studio Code*** : Primary code editor used for development.
+
+
 # Project Structure
 Every time you start a new Python project, you should take some time to think about how you’ll organize the project itself. You need to create your project layout, which is the directory structure of your project.
 
