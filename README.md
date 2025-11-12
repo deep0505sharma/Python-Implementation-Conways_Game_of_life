@@ -70,6 +70,7 @@ This project is built using Python 3.14.0 and requires that the user has at leas
 ```bash
 cd "Path to directory where you want to clone the repo"
 git clone https://github.com/deep0505sharma/Python-Implementation-Conways_Game_of_life.git
+cd Python-Implementation-Conways_Game_of_life
 python3 -m rplife -a
 ```
 
