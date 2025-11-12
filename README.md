@@ -1,4 +1,4 @@
-# Conways Game of life
+# Description
 The Game of Life is a cellular automaton created by John H. Conway in 1970. The game is a zero-player game in which an initially configured 2D grid of cells evolves according to the Game of Life [ruleset](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 
 Built using Python 3.14.0, this implementation of Conway's Game of Life allows the user to easily run the Game of Life using a 2D grid of choosen number of rows and columns in either a MacOS or Windows terminal/console.
@@ -58,4 +58,6 @@ Python-Implementation-Conways_Game_of_life/
 └── README.md                   # Project documentation
 ```
 
+# How to Run
+This project is built using Python 3.14.0 and requires that the user has at least Python 3 installed in order to run the program. Python 3+ can be installed [here](https://www.python.org/downloads/).
 
