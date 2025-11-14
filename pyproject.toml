@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Python-Implementation-Conways_Game_of_life"
+dynamic = ["version"]
+description = "Conway's Game of Life in your terminal"
+readme = "README.md"
+authors = [{ name = "Deepak Sharma", email = "ds8407205@gmail.com" }]
+dependencies = [
+    'tomli; python_version > "3.11"',
+]
+
+[project.scripts]
+Python-Implementation-Conways_Game_of_life = "rplife.__main__:main"
+
+[tool.setuptools.dynamic]
+version = {attr = "rplife.__version__"}
