@@ -60,7 +60,8 @@ Python-Implementation-Conways_Game_of_life/
 ├── .DS_Store                        # macOS system file (can be ignored)
 ├── LICENSE                          # License information for the project
 ├── README.md                        # Project documentation
-└── example.gif                      # Example animation or demo for README
+├── example.gif                      # Demo animation for README
+└── pyproject.toml                   # Project metadata & build configuration
 
 ```
 
