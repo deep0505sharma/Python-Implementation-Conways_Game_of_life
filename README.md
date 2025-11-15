@@ -94,6 +94,44 @@ Python-Implementation-Conways_Game_of_life --version #will show the program's ve
 ```
 ----------
 
+## 🚀 On Jupyter Notebook
+
+-------
+```bash
+from rplife import grid, patterns
+blinker = patterns.Pattern("Hearts", {(3, 1), (4, 2), (2, 2),(3,2),(3,3)})
+grid = grid.LifeGrid(blinker)
+print(grid.as_string((0, 0, 5, 5)))
+```
+-------
+```bash
+from rplife.views import CursesView, TextView
+from rplife.patterns import get_pattern
+TextView(get_pattern("Glider Gun"), gen=100).show()
+```
+-------
+![Output](https://github.com/user-attachments/assets/fcb58ac3-4ad4-4132-8571-d7a15e37dffa)
+
+**To implement and evolve any other random pattern of your choice**
+
+-------
+```bash
+from rplife import grid, patterns
+blinker = patterns.Pattern("Hearts", {(3, 1), (4, 2), (2, 2),(3,2),(3,3)})
+grid = grid.LifeGrid(blinker)
+print(grid.as_string((0, 0, 5, 5)))
+```
+-------
+<img width="48" height="88" alt="Output" src="https://github.com/user-attachments/assets/59279427-7786-4056-9fab-5fedfbfbac0f" />
+
+-------
+```bash
+grid.evolve()
+print(grid.as_string((0, 0, 5, 5)))
+```
+-------
+<img width="48" height="88" alt="Image" src="https://github.com/user-attachments/assets/8f146d33-c7a9-453d-9ec3-2974c30c550a" />
+
 # 📖 Conclusion
 1. Implemented Conway’s Game of Life using Python and object-oriented programming. 
 2. To make the game usable, built a user-friendly command-line interface using argparse. In the process, I’ve learned how to structure and organize a CLI app and set up the application for distribution and installation.
