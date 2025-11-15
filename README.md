@@ -84,13 +84,16 @@ source myvenv/bin/activate
 python3 -m pip install -e .
 ```
 
-Running the project as a stand-alone CLI application.
+**Running the project as a stand-alone CLI application.**
 
+----------
 ```bash
 Python-Implementation-Conways_Game_of_life --all #will show all available patterns in a sequence
 Python-Implementation-Conways_Game_of_life -p "Beacon" -g 10 #will show next 10 gens of Beacon pattern
 Python-Implementation-Conways_Game_of_life --version #will show the program's version number and name
 ```
+----------
+
 # 📖 Conclusion
 1. Implemented Conway’s Game of Life using Python and object-oriented programming. 
 2. To make the game usable, built a user-friendly command-line interface using argparse. In the process, I’ve learned how to structure and organize a CLI app and set up the application for distribution and installation.
@@ -100,9 +103,9 @@ Python-Implementation-Conways_Game_of_life --version #will show the program's ve
 Go a step further by implementing a few additional features. 
 Here are some ideas for new features:
 
-**Implement other views**: Having other views apart from the one based on curses would be a great addition to the project. For example, writing a Tkinter view where we can display the life grid in a GUI window.
-**Add exciting new life patterns**: Adding new life patterns to patterns.toml will allow exploring other behaviors of the game.
-**Change the rules**: So far, the project has been implemented with the traditional rules, where dead cells with three living neighbors are born, and living cells with two or three living neighbors survive. But there are several variations that use different rules to evolve to a new generation. Changing the rules allows experiencing other life-like universes.
+1. **Implement other views**: Having other views apart from the one based on curses would be a great addition to the project. For example, writing a Tkinter view where we can display the life grid in a GUI window.
+2. **Add exciting new life patterns**: Adding new life patterns to patterns.toml will allow exploring other behaviors of the game.
+3. **Change the rules**: So far, the project has been implemented with the traditional rules, where dead cells with three living neighbors are born, and living cells with two or three living neighbors survive. But there are several variations that use different rules to evolve to a new generation. Changing the rules allows experiencing other life-like universes.
 
 ---------
   ```javascript
