@@ -122,7 +122,8 @@ grid = grid.LifeGrid(blinker)
 print(grid.as_string((0, 0, 5, 5)))
 ```
 -------
-<img width="48" height="88" alt="Output" src="https://github.com/user-attachments/assets/59279427-7786-4056-9fab-5fedfbfbac0f" />
+Output:
+<img width="88" height="128" alt="Output" src="https://github.com/user-attachments/assets/59279427-7786-4056-9fab-5fedfbfbac0f" />
 
 -------
 ```bash
@@ -130,7 +131,8 @@ grid.evolve()
 print(grid.as_string((0, 0, 5, 5)))
 ```
 -------
-<img width="48" height="88" alt="Image" src="https://github.com/user-attachments/assets/8f146d33-c7a9-453d-9ec3-2974c30c550a" />
+Output:
+<img width="88" height="128" alt="Image" src="https://github.com/user-attachments/assets/8f146d33-c7a9-453d-9ec3-2974c30c550a" />
 
 # 📖 Conclusion
 1. Implemented Conway’s Game of Life using Python and object-oriented programming. 
