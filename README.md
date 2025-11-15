@@ -1,4 +1,4 @@
-# Description
+# 📝 Description
 The Game of Life is a cellular automaton created by John H. Conway in 1970. The game is a zero-player game in which an initially configured 2D grid of cells evolves according to the Game of Life [ruleset](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 
 Built using Python 3.14.0, this implementation of Conway's Game of Life allows the user to easily run the Game of Life using a 2D grid of chosen number of rows and columns in either a MacOS or Windows terminal/console.
@@ -7,7 +7,7 @@ Built using Python 3.14.0, this implementation of Conway's Game of Life allows t
 
 This project is licensed under the terms of the MIT license.
 
-# Ruleset
+# 📜 Ruleset
 Using the following ruleset the 2D grid of cells will evolve from generation to generation until it reaches a static state of either all dead cells or a mix of still, oscillating, or moving (spaceship) cells.
 
 1. **Underpopulation** - If a live cell is surrounded by fewer than two surrounding neighbours, it dies and does not make it to the next generation.
@@ -15,7 +15,7 @@ Using the following ruleset the 2D grid of cells will evolve from generation to 
 3. **Overpopulation** - If a live cell is surrounded by more than three living neighbors, the cell dies and does not make it to the next generation.
 4. **Reproduction** - If a dead cell is surrounded by three living neighbor,s the cell stays alive and makes it to the next generation.
 
-# Dependancies
+# 🛠️ Dependancies
 ![GitHub tag](https://img.shields.io/github/tag/pandao/editor.md.svg)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
@@ -32,7 +32,7 @@ Using the following ruleset the 2D grid of cells will evolve from generation to 
 ***Visual Studio Code***: Primary code editor used for development.
 
 
-# Project Structure
+# 📑 Project Structure
 
 * Implement the Game of Life algorithm, including the life grid and the seeds or patterns
 * Provide a way to visualize the life grid and its evolution
@@ -65,7 +65,7 @@ Python-Implementation-Conways_Game_of_life/
 
 ```
 
-# How to Run
+# 📦 How to Run
 This project is built using Python 3.14.0 and requires that the user has at least Python 3 installed in order to run the program. Python 3+ can be installed [here](https://www.python.org/downloads/).
 
 ```bash
@@ -76,7 +76,7 @@ python3 -m rplife -a
 ```
 The project has a user-friendly command-line interface that allows you to run it with different options. You can run the game/project with a single pattern, with all the available patterns, and more. Before doing this, you need to setup the virtual python environment in your system and have pyproject.toml file present in the project folder to run the project using single commands.
 
-## Virtual Environment Set-up
+## 🖥️ Virtual Environment Set-up
 
 ```bash
 python3 -m venv myvenv
@@ -91,12 +91,12 @@ Python-Implementation-Conways_Game_of_life --all #will show all available patter
 Python-Implementation-Conways_Game_of_life -p "Beacon" -g 10 #will show next 10 gens of Beacon pattern
 Python-Implementation-Conways_Game_of_life --version #will show the program's version number and name
 ```
-# Conclusion
+# 📖 Conclusion
 1. Implemented Conway’s Game of Life using Python and object-oriented programming. 
 2. To make the game usable, built a user-friendly command-line interface using argparse. In the process, I’ve learned how to structure and organize a CLI app and set up the application for distribution and installation.
 3. Learned about TOML config files and writing them.
 
-# Next Steps
+# 💡 Next Steps
 Go a step further by implementing a few additional features. 
 Here are some ideas for new features:
 
@@ -104,5 +104,11 @@ Here are some ideas for new features:
 **Add exciting new life patterns**: Adding new life patterns to patterns.toml will allow exploring other behaviors of the game.
 **Change the rules**: So far, the project has been implemented with the traditional rules, where dead cells with three living neighbors are born, and living cells with two or three living neighbors survive. But there are several variations that use different rules to evolve to a new generation. Changing the rules allows experiencing other life-like universes.
 
-
+---------
+  ```javascript
+  if youLiked : 
+      ⭐ Star_Repository
+  # Thank You! 🙏
+  ```
+-----------
 
